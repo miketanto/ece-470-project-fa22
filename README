@@ -1,0 +1,29 @@
+README - Project Update 1
+
+Team Members: Patrick Li, Samuel Kim, Will Chen, Michael Sutanto
+
+Author: Patrick Li
+Submitted 16 October 2022
+
+Google Drive link: https://drive.google.com/drive/folders/16GZoAsfbii5KIwFn8BSAJNgGjSO6uc2z?usp=sharing
+
+Instructions to recreate simulation:
+	-If you HAVE NOT built the folder using catkin_make:
+		1. Download lab2andDriver.tar.gz and extract its contents to the catkin workspace /src folder.
+		2. Change directory (cd) back to the workspace and build it using catkin_make.
+		3. If not in the catkin workspace, cd back to it again.
+		4. Source the terminal using: "source devel/setup.bash".
+		5. Run gazebo using: "roslaunch ur3_driver ur3_gazebo.launch".
+		6. Open a separate terminal and repeat steps 3 and 4.
+		7. Spawn objects within gazebo using: "rosrun lab2pkg_py lab2_spawn.py". 
+		NOTE: GAZEBO MUST BE RUNNING PRIOR TO SPAWNING OBJECTS OR ELSE STEP 7 WON'T WORK.
+		8. Repeat step 6.
+		9. Run the exec file and follow the ensuing prompts using: "rosrun lab2pkg_py lab2_exec.py".
+
+	-If you HAVE already built the folder using catkin_make:
+
+		1. Download the lab2_exec.py file from Google Drive. The other files are provided but not necessary (no changes were made).
+		2. Replace the native lab2_exec file with the downloaded one.
+		3. Follow the steps above starting at step 3.
+
+In this update, the main objectives were to establish a connection with Gazebo, verify that objects can be spawned in both using lab2_spawn and manually using the Gazebo GUI.
