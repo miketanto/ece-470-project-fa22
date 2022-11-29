@@ -1,0 +1,12 @@
+README - Project Update 2
+
+Team Members: Patrick Li, Samuel Kim, Michael Sutanto
+
+Author: Patrick Li
+Submitted 20 November 2022
+
+Google Drive link: https://drive.google.com/drive/folders/1-5Iu9LgYhziCHbePeaVASnzFgM1VKjo4?usp=sharing
+
+In this update, we implemented forward and inverse kinematics with the UR3 robot in Gazebo as well as demonstrate basic object detection using OpenCV with the provided camera. These objectives are similar to the ones of lab 5. Surprisingly, the camera in Gazebo works similarly to the physical cameras utilized in lab5. What's more, the blocks created in Gazebo are much more reliable to detect, and as such very tight ranges for HSV bounds were used. The only other aspect that required calibrating were converting camera coordinates to world coordinates. 
+
+Future work will include figuring out how to spawn custom objects (i.e. not RGB blocks) using the spawn.py file, implementing special kinematics for operating a utensil with the end-effector, and possibly incoroporating a turtlebot that the UR3 can sit on to expand the available workspace. 
