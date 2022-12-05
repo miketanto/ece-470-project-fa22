@@ -1,0 +1,31 @@
+README - Project Update 3+
+
+Team Members: Patrick Li, Samuel Kim, Michael Sutanto
+
+Author: Patrick Li
+
+TIMELINE:
+
+28 Nov - (Patrick) Figured out how to manipulate yaml file and spawn.py to spawn blocks where we want. Upcoming: can we spawn our own urdf's?
+
+29 Nov - (Sam) Figured out how to manipulate urdf's and inserted bowl urdf from gazebosim.
+
+30 Nov 9pm - (Michael) Laid out exec file logic and user inputs.
+
+ 12:00am - (Patrick) Could spawn in blobs/blocks of different colors, sizes anywhere.
+
+ 1:00am - (Sam) Figured out how stl's can be put into meshes folder, can now insert custom stl's into Gazebo.
+
+ 1:30am - (Sam) Figured out how to scale stl's, can move origin of stl to be near part so spawned part isn't floating.
+ 
+ 2:00am - (Patrick) Can spawn custom models, but can't figure out how collisions are resolved in Gazebo. Why so much wiggliness from everything that is remotely touching?
+
+ 3:00am - (Patrick) Implemented a waving motion at the end, a smoother move_block function, resolved errors resulting from parts being outside C-space of UR3.
+
+ 4:00am - (Both) Screen-recorded demo showing horrendous collision issues.
+
+ 4:30am - (Both) Worked on presentation slides, voiceover script, audio for video.
+
+ 5:30am - (Sam) Started working on video.
+
+

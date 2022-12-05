@@ -1,0 +1,11 @@
+README - Project Update 3+
+
+Team Members: Patrick Li, Samuel Kim, Michael Sutanto
+
+Author: Patrick Li
+
+The urdf's here are the ones used in the project. In addition, we've included stl's and dae's of relevant files. 
+The urdf's go in src/drivers/universal_robot_ur_description/urdf.
+The stl's and dae's go in src/drivers/universal_robot_ur_description/meshes.
+
+
